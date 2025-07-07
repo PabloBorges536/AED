@@ -1,5 +1,95 @@
 # Lista de Tarefas
 
-- [ ] Tarefa 1
-- [ ] Tarefa 2
-- [ ] Tarefa 3
+** PARTE 1 **
+
+- [ ]   1 - Criar classe abstrata chamada elemento que será usada como ancestral 
+            para todos os elementos que serão inseridos nas estruturas de dados.
+            - Atributo protegido chamado ID (int ou long)
+            - Metodo publico getID() const.
+            - virtual void imprimirInfo() const = 0 (forçar todas as classes concretas a inplementarem para se apresentarem)
+Autores: []
+
+- [ ]   2 - Crie pelo menos duas classes instanciáveis que herdem
+            de Elemento. Cada classe deve implementar todos os métodos virtuais puros herdados de
+            Elemento e possuir seus próprios atributos e métodos específicos.
+            (filas, pilhas e deques)
+Autores: []
+
+
+- [ ]   3 - Lista Não Ordenada: Implemente os métodos InserirNoInicio, InserirNoFinal, 
+            RemoverPri-meiro, RemoverUltimo, RemoverPeloId, BuscarPeloId e AlterarPeloId. 
+            Analise e comente a complexidade de cada operação;
+Autores: []
+
+
+- [ ]   4 - Lista Ordenada: Implemente os mesmos métodos da lista não ordenada. 
+            Contudo, as operações deve manter a ordem dos elementos pelo ID. 
+            A busca deve ser otimizada, utilizando busca binária para alcançar
+            complexidade O(logn);
+Autores: []
+
+
+- [ ]   5 - Pilha: Implemente as classes Pilha utilizando composição. 
+            Em vez de reimplementar a lógica, sua classe Pilha deve ter um atributo 
+            privado que seja uma das listas que você já implementou 
+            (escolha a estrutura apropriada).
+            Exponha apenas os métodos para empilhar, desempilhar, consultarTopo, 
+            pilhaCheia e pilhaVazia. Mapeie essas operações para as funcionalidades da sua 
+            lista subjacente;
+Autores: []
+
+
+- [ ]   5 - Fila: Implemente uma fila seguindo os mesmos fundamentos apresentados para as pilhas. 
+            Observe que essa estrutura apresentará uma manipulação menos eficiente do 
+            que o necessário (estude os métodos de manipulação). 
+            Proponha uma segunda implementação que corrija o problema encontrado.
+Autores: []
+
+
+** PARTE 2 ** 
+    - Encapsulamento do Nó: Para cada estrutura, a definição dos “nós” deve ser uma classe
+    privada dentro da própria classe da estrutura de dados, escondendo completamente este detalhe
+    de implementação do usuário final.
+
+
+- [ ]   6 - ListaSimplesmenteEncadeada
+            (inserirNoInicio, inserirNoFim, removerPeloId, buscarPeloId, etc.).
+Autores: []
+
+
+- [ ]   7 - ListaDuplamenteEncadeada
+            (inserirNoInicio, inserirNoFim, removerPeloId, buscarPeloId, etc.).
+Autores: []
+
+
+- [ ]   8 - ListaDuplamenteEncadeadaCircular robustas e com todas as operações de manipulação 
+            (inserirNoInicio, inserirNoFim, removerPeloId, buscarPeloId, etc.).
+Autores: []
+
+
+- [ ]   9 - Pilha
+Autores: []
+
+- [ ]   9 - Fila
+Autores: []
+
+- [ ]   9 - deques
+Autores: []
+
+
+# como “adaptadores” que utilizam, por composição, 
+uma instância de uma de suas classes para listas encadeadas. 
+Escolha a estrutura mais adequada para reduzir ao máximo a complexidade computacional das
+operações de manipulação.
+
+- [ ]   9 - ArvoreBinariaBusca: Assim como realizado anteriormente,
+            esconda completamente o uso de uma classe para os nós 
+            da árvore do usuário final. Mantenha a propriedade fundamental 
+            das árvores binárias de busca baseada no atributo ID do nó.
+            Implemente os métodos Inserir, BuscarPeloId e RemoverPeloId. 
+            Implemente também os três tipos de percurso: 
+            emOrdem, preOrdem e posOrdem. 
+            Os percursos devem imprimir oatributo ID de cada nó.
+Autores: []
+
+
