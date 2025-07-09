@@ -1,7 +1,12 @@
 #include <iostream>
+#include "../include/pessoa.h"
+
+
+
 
 int main(){
-    std::cout << "hello world" << std::endl;
+    
+   
     return 0;
 }
 

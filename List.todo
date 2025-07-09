@@ -2,18 +2,18 @@
 
 ** PARTE 1 **
 
-- [ ]   1 - Criar classe abstrata chamada elemento que será usada como ancestral 
+- [X]   1 - Criar classe abstrata chamada elemento que será usada como ancestral 
             para todos os elementos que serão inseridos nas estruturas de dados.
             - Atributo protegido chamado ID (int ou long)
             - Metodo publico getID() const.
             - virtual void imprimirInfo() const = 0 (forçar todas as classes concretas a inplementarem para se apresentarem)
-Autores: []
+Autores: [Barizon]
 
 - [ ]   2 - Crie pelo menos duas classes instanciáveis que herdem
             de Elemento. Cada classe deve implementar todos os métodos virtuais puros herdados de
             Elemento e possuir seus próprios atributos e métodos específicos.
             (filas, pilhas e deques)
-Autores: []
+Autores: [Barizon]
 
 
 - [ ]   3 - Lista Não Ordenada: Implemente os métodos InserirNoInicio, InserirNoFinal, 
