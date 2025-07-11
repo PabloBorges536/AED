@@ -6,7 +6,7 @@ Fila::Fila(int tamanho): size(tamanho), front(0), back(-1), len(0)
     dados = new Elemento*[tamanho]; // e como se fosse o malloc
 }
 
-void Fila::enfileirar(Elemento* elemento)
+void Fila::enfileirar(Elemento* elemento) // O(1)
 {
     if(isFull()){
         std::cout << "Fila cheia\n";
@@ -17,7 +17,7 @@ void Fila::enfileirar(Elemento* elemento)
     len++;
 }
 
-Elemento* Fila::desenfileirar()
+Elemento* Fila::desenfileirar() // O(n)
 {
     if(isEmpty()){
         std::cout << "Fila vazia\n";

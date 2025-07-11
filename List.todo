@@ -9,11 +9,6 @@
             - virtual void imprimirInfo() const = 0 (forçar todas as classes concretas a inplementarem para se apresentarem)
 Autores: [Barizon]
 
-- [ ]   2 - Crie pelo menos duas classes instanciáveis que herdem
-            de Elemento. Cada classe deve implementar todos os métodos virtuais puros herdados de
-            Elemento e possuir seus próprios atributos e métodos específicos.
-            (filas, pilhas e deques)
-Autores: [Barizon]
 
 
 - [ ]   3 - Lista Não Ordenada: Implemente os métodos InserirNoInicio, InserirNoFinal, 
@@ -27,6 +22,14 @@ Autores: []
             A busca deve ser otimizada, utilizando busca binária para alcançar
             complexidade O(logn);
 Autores: []
+
+- [ ]   2 - Crie pelo menos duas classes instanciáveis que herdem
+            de Elemento. Cada classe deve implementar todos os métodos virtuais puros herdados de
+            Elemento e possuir seus próprios atributos e métodos específicos.
+            (filas, pilhas e deques)
+Autores: []
+
+
 
 
 - [ ]   5 - Pilha: Implemente as classes Pilha utilizando composição. 

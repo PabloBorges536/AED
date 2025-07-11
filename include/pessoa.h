@@ -14,6 +14,7 @@ class Pessoa : public Elemento {
         
         void imprimirInfo() const override;
         
+        
         std::string getNome() const; //(funcao const) garante que a funcao nao vai mudar o atributo da classe
         int getIdade() const;
 };

@@ -1,31 +1,27 @@
 #include <iostream>
 #include "../include/pessoa.h"
-#include "../include/fila.h"
+#include "../include/ListaNaoOrdenada.h"
 
 int main(){
-    Fila fila(10);
-    
+   
+    std::cout << "iniciando" << std::endl;
+    ListaNaoOrdenada lista(10);    
+
+
     // Criar objetos Pessoa
     Pessoa breno(1, "Breno", 20);
-    Pessoa joao(2, "João", 25);
-    Pessoa maria(3, "Maria", 30);
+    Pessoa joao(2, "Joao", 25);
+    Pessoa jose(3, "jose", 30);
     
-    // Enfileirar usando endereços dos objetos (&)
-    fila.enfileirar(&breno);
-    fila.enfileirar(&joao);
-    fila.enfileirar(&maria);
-    
-    std::cout << "Tamanho da fila: " << fila.Size() << std::endl;
-    
-    // Desenfileirar e imprimir informações
-    std::cout << "\n=== Desenfileirando ===" << std::endl;
-    while (!fila.isEmpty()) {
-        Elemento* elemento = fila.desenfileirar();
-        if (elemento != nullptr) {
-            elemento->imprimirInfo();
-            std::cout << "---" << std::endl;
-        }
-    }
+    lista.InserirIni(&breno);
+    lista.InserirIni(&joao);
+    lista.InserirFim(&jose);
+
+
+    std::cout << lista.Size()<< std::endl;
+
+    lista.PrintDados();
+
     
     return 0;
 }
