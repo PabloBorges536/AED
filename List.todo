@@ -11,10 +11,10 @@ Autores: [Barizon]
 
 
 
-- [ ]   3 - Lista Não Ordenada: Implemente os métodos InserirNoInicio, InserirNoFinal, 
+- [-]   3 - Lista Não Ordenada: Implemente os métodos InserirNoInicio, InserirNoFinal, 
             RemoverPri-meiro, RemoverUltimo, RemoverPeloId, BuscarPeloId e AlterarPeloId. 
             Analise e comente a complexidade de cada operação;
-Autores: []
+Autores: [Barizon]
 
 
 - [ ]   4 - Lista Ordenada: Implemente os mesmos métodos da lista não ordenada. 

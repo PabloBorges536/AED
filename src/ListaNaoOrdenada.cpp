@@ -23,12 +23,20 @@ bool ListaNaoOrdenada::isEmpty() const
 
 }
 
-void ListaNaoOrdenada::move()
+void ListaNaoOrdenada::movedir()
 {
     for(int pos = len-1; pos >= 0; pos--){
         Elemento* aux = dados[pos];
         dados[pos+1] = aux;
     }
+}
+
+void ListaNaoOrdenada::moveesq() // so vai ser usado ao remover um item no início
+{
+    for(int pos = 0; pos < len-1; pos++){
+        dados[pos] = dados[pos+1];
+    }
+    dados[len-1] = nullptr; // Limpa o último ponteiro
 }
 
 void ListaNaoOrdenada::InserirIni(Elemento* item)
@@ -38,7 +46,7 @@ void ListaNaoOrdenada::InserirIni(Elemento* item)
         return;
     }
     if (len > 0)
-        move(); // move todos os itens um indece para frente
+        movedir(); // move todos os itens um indece para frente
     dados[0] = item;
     len++;
 
@@ -52,8 +60,19 @@ void ListaNaoOrdenada::InserirFim(Elemento* item)
     }
     dados[len] = item;
     len++;
+}
 
 
+void ListaNaoOrdenada::RemoverIni()
+{
+    if(isEmpty()){
+        std::cout << "Lista vazia, não é possível remover!" << std::endl;
+        return;
+    }   
+    moveesq();
+    len--;
+    dados[len] = nullptr;    
+    // Limpa o ponteiro do último elemento
 }
 
 

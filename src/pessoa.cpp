@@ -6,6 +6,7 @@
 Pessoa::Pessoa(int id, const std::string &nome, int idade) 
 : Elemento(id) , nome(nome) , idade(idade) {}
 
+Pessoa::~Pessoa(){}
 
 void Pessoa::imprimirInfo() const
 {

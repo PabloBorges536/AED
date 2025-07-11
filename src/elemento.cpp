@@ -6,6 +6,10 @@
 
 Elemento::Elemento(int id): ID(id) {}
 
+Elemento::~Elemento()
+{
+}
+
 int Elemento::getID() {
     return ID;
 }

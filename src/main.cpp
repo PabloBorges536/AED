@@ -18,8 +18,14 @@ int main(){
     lista.InserirFim(&jose);
 
 
+
+
     std::cout << lista.Size()<< std::endl;
 
+    lista.PrintDados();
+
+    lista.RemoverIni();
+    std::cout << "remover" << std::endl;
     lista.PrintDados();
 
     

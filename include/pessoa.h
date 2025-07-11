@@ -11,6 +11,7 @@ class Pessoa : public Elemento {
 
     public:
         Pessoa(int id, const std::string& nome, int idade);
+        ~Pessoa() override;
         
         void imprimirInfo() const override;
         

@@ -4,6 +4,7 @@
 class Elemento {
     public:
         Elemento(int id);
+        virtual ~Elemento();
         int getID();
         virtual void imprimirInfo() const = 0;
        
