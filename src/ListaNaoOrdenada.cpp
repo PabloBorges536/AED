@@ -75,6 +75,16 @@ void ListaNaoOrdenada::RemoverIni()
     // Limpa o ponteiro do último elemento
 }
 
+void ListaNaoOrdenada::RemoverUltimo()
+{
+    if(isEmpty()){
+        std::cout << "Lista vazia, não é possível remover!" << std::endl;
+        return;
+    }   
+    dados[len-1] = nullptr;
+    len --;
+}
+
 
 int ListaNaoOrdenada::Size() const
 {

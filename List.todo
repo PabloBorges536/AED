@@ -11,8 +11,8 @@ Autores: [Barizon]
 
 
 
-- [-]   3 - Lista Não Ordenada: Implemente os métodos InserirNoInicio, InserirNoFinal, 
-            RemoverPri-meiro, RemoverUltimo, RemoverPeloId, BuscarPeloId e AlterarPeloId. 
+- [-]   3 - Lista Não Ordenada: Implemente os métodos xInserirNoInicio, xInserirNoFinal, 
+            xRemoverPri-meiro, xRemoverUltimo, RemoverPeloId, BuscarPeloId e AlterarPeloId. 
             Analise e comente a complexidade de cada operação;
 Autores: [Barizon]
 

@@ -24,9 +24,11 @@ int main(){
 
     lista.PrintDados();
 
-    lista.RemoverIni();
-    std::cout << "remover" << std::endl;
+    lista.RemoverUltimo();
+    std::cout << "remover ini " << std::endl;
     lista.PrintDados();
+
+
 
     
     return 0;

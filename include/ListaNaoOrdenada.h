@@ -14,6 +14,7 @@ class ListaNaoOrdenada
 		void InserirIni(Elemento* item);
 		void InserirFim(Elemento* item);
 		void RemoverIni();
+		void RemoverUltimo();
 		void PrintDados();
 		int Size() const;
 		
