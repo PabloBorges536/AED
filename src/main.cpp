@@ -12,6 +12,7 @@ int main(){
     Pessoa breno(1, "Breno", 20);
     Pessoa joao(2, "Joao", 25);
     Pessoa jose(3, "jose", 30);
+    Pessoa Pedro(3, "Pedro", 30);
     
     lista.InserirIni(&breno);
     lista.InserirIni(&joao);
@@ -20,12 +21,15 @@ int main(){
 
 
 
+
+
     std::cout << lista.Size()<< std::endl;
 
     lista.PrintDados();
 
-    lista.RemoverUltimo();
-    std::cout << "remover ini " << std::endl;
+   
+    lista.Aleterar(2, &Pedro);
+
     lista.PrintDados();
 
 

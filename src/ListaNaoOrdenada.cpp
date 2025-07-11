@@ -31,9 +31,9 @@ void ListaNaoOrdenada::movedir()
     }
 }
 
-void ListaNaoOrdenada::moveesq() // so vai ser usado ao remover um item no início
+void ListaNaoOrdenada::moveesq(int index) // so vai ser usado ao remover um item no início
 {
-    for(int pos = 0; pos < len-1; pos++){
+    for(int pos = index; pos < len-1; pos++){
         dados[pos] = dados[pos+1];
     }
     dados[len-1] = nullptr; // Limpa o último ponteiro
@@ -52,7 +52,7 @@ void ListaNaoOrdenada::InserirIni(Elemento* item)
 
 }
 
-void ListaNaoOrdenada::InserirFim(Elemento* item)
+void ListaNaoOrdenada::InserirFim(Elemento* item) // complexidade: O(1)
 {
     if(isFull()){
         std::cout << "a lista esta cheia";
@@ -63,19 +63,19 @@ void ListaNaoOrdenada::InserirFim(Elemento* item)
 }
 
 
-void ListaNaoOrdenada::RemoverIni()
+void ListaNaoOrdenada::RemoverIni() // complexidade: O(n)
 {
     if(isEmpty()){
         std::cout << "Lista vazia, não é possível remover!" << std::endl;
         return;
     }   
-    moveesq();
+    moveesq(0);
     len--;
     dados[len] = nullptr;    
     // Limpa o ponteiro do último elemento
 }
 
-void ListaNaoOrdenada::RemoverUltimo()
+void ListaNaoOrdenada::RemoverUltimo() // complexidade: O(1)
 {
     if(isEmpty()){
         std::cout << "Lista vazia, não é possível remover!" << std::endl;
@@ -85,13 +85,51 @@ void ListaNaoOrdenada::RemoverUltimo()
     len --;
 }
 
+Elemento* ListaNaoOrdenada::BuscarId(int id) // complexidade: O(n)
+{
+    for(int i = 0 ; i < len; i++)
+    {
+        if(dados[i]->getID() == id){
+            return dados[i];
+        }
+    }
+}
+
+void ListaNaoOrdenada::RemoverId(int id) // complexidade: O(n)
+{
+    int index;
+    for(int i = 0; i < len; i++)
+    {
+        if(dados[i]->getID() == id)
+            index = i;
+    }
+
+    moveesq(index);
+    dados[len-1] = nullptr;
+    len --;
+    
+}
+
+void ListaNaoOrdenada::Aleterar(int id, Elemento* item)
+{    
+    int index;
+    for(int i = 0; i < len; i++)
+    {
+        if(dados[i]->getID() == id){
+            index = i;
+        }
+
+    }
+    dados[index] = item;
+
+}
 
 int ListaNaoOrdenada::Size() const
 {
     return len;
 }
 
-void ListaNaoOrdenada::PrintDados()
+void ListaNaoOrdenada::PrintDados() // complexidade: O(n)
 {
     if(isEmpty()){
         std::cout << "Lista vazia!" << std::endl;

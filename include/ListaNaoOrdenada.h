@@ -15,6 +15,9 @@ class ListaNaoOrdenada
 		void InserirFim(Elemento* item);
 		void RemoverIni();
 		void RemoverUltimo();
+		Elemento* BuscarId(int id);
+		void RemoverId(int id);
+		void Aleterar(int id, Elemento* item);
 		void PrintDados();
 		int Size() const;
 		
@@ -26,7 +29,7 @@ class ListaNaoOrdenada
 		int back; // posicao do ultimo item
 		int len;
 		void movedir();
-		void moveesq();
+		void moveesq(int index);
 
 
 };   
