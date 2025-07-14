@@ -24,11 +24,13 @@ int main(){
 
     lista.PrintDados();
 
-    lista.RemoverId(3);
 
-    lista.PrintDados();
+
+
+    lista.RemoverUltimo();
    
 
+    lista.PrintDados();
 
 
 
