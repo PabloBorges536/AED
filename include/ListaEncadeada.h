@@ -7,13 +7,10 @@ class ListaEncadeada
     private:
         class No{
             public:
-
-            protected:
                 Elemento* dado;
                 No* prox;
-                No* ant;
             
-            No(Elemento* item) : dado(item), prox(nullptr), ant(nullptr) {}
+            No(Elemento* item) : dado(item), prox(nullptr){}
         };
 
         No* head;
@@ -26,9 +23,10 @@ class ListaEncadeada
         void InserirFim(Elemento* item);
         void removerIni();
         void removerFim();
-        void alterarID();
+        void alterarID(int id, Elemento* item);
         void removerID(int id);
         Elemento* buscarID(int id);
+        void PrintDados();
 
 
 

@@ -33,7 +33,7 @@ void Deque::enfileirarParaFrente(Elemento* elemento) // O(1)
     len--;
 }
 
-Elemento* Fila::desenfileirarParaFrente() // O(n)
+Elemento* Deque::desenfileirarParaFrente() // O(n)
 {
     if (isEmpty()) {
         std::cout << "Deque vazio\n";
@@ -46,7 +46,7 @@ Elemento* Fila::desenfileirarParaFrente() // O(n)
     return elemento;
 }
 
-Elemento* Deque::desenfileirarTras() {
+Elemento* Deque::desenfileirarParaTras() {
     if (isEmpty()) {
         std::cout << "Deque vazio\n";
         return nullptr;
