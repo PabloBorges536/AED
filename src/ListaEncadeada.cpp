@@ -6,7 +6,6 @@ ListaEncadeada::ListaEncadeada():size(0){
     head = nullptr;
 }
 
-ListaEncadeada::~ListaEncadeada(){}
 
 void ListaEncadeada::InserirIni(Elemento* item){
     No* novo = new No(item);

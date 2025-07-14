@@ -29,7 +29,7 @@ Elemento* Pilha::desempilhar() {
     return elementoRemovido;
 }
 
-Elemento* Pilha::consultarTopo() const {
+Elemento* Pilha::consultarTopo() {
     if (pilhaVazia()) {
         std::cout << "Pilha vazia! Nao ha topo para consultar." << std::endl;
         return nullptr;

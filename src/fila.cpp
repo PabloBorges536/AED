@@ -26,7 +26,7 @@ Elemento* Fila::desenfileirar() {
     return primeiro;
 }
 
-Elemento* Fila::consultarPrimeiro() const {
+Elemento* Fila::consultarPrimeiro() {
     if (filaVazia()) {
         std::cout << "Fila vazia. Não tem primeiro elemento para consultar." << std::endl;
         return nullptr;
@@ -87,7 +87,7 @@ Elemento* FilaOtimizada::desenfileirar() {
  
 }
 
-Elemento* FilaOtimizada::consultarPrimeiro() const {
+Elemento* FilaOtimizada::consultarPrimeiro() {
     if (filaVazia()) {
         std::cout << "Fila otimizada vazia!." << std::endl;
         return nullptr;

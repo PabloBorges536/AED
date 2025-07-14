@@ -52,7 +52,7 @@ Autores: [Antonio]
     de implementação do usuário final.
 
 
-- [ ]   6 - ListaSimplesmenteEncadeada
+- [X]   6 - ListaSimplesmenteEncadeada
             (inserirNoInicio, inserirNoFim, removerPeloId, buscarPeloId, etc.).
 Autores: [Barizon]
 

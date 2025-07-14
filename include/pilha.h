@@ -8,14 +8,14 @@
 class Pilha {
 private:
     // A Pilha 'tem um' objet ListaNaoOrdenada 
-    ListaNaoOrdenada listaSubjacente;
 
 public:
     Pilha(int capacidadeMaxima);
     
+    ListaNaoOrdenada listaSubjacente;
     void empilhar(Elemento* elemento);
     Elemento* desempilhar();
-    Elemento* consultarTopo() const;
+    Elemento* consultarTopo();
     bool pilhaCheia() const;
     bool pilhaVazia() const;
 };

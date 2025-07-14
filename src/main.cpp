@@ -2,10 +2,14 @@
 #include "../include/pessoa.h"
 #include "../include/ListaNaoOrdenada.h"
 #include "../include/ListaOrdenada.h"
+#include "../include/ListaEncadeada.h"
+
+
+
 int main(){
    
     std::cout << "iniciando" << std::endl;
-    ListaOrdenada lista(10);    
+    ListaEncadeada lista; 
 
 
     // Criar objetos Pessoa
@@ -15,24 +19,13 @@ int main(){
     Pessoa Pedro(5, "Pedro", 30);
     
     std::cout << "inserindo" << std::endl;
-    lista.Inserir(&Pedro);
-    lista.Inserir(&breno);
-    lista.Inserir(&jose);
-    lista.Inserir(&joao);
-    std::cout << "inseri" << std::endl;
-
+    lista.InserirIni(&breno); 
+    lista.InserirIni(&joao);
+    lista.InserirFim(&Pedro);
 
     lista.PrintDados();
 
-
-
-
-    lista.RemoverUltimo();
-   
-
-    lista.PrintDados();
-
-
+    std::cout << "funciona" << std::endl;
 
     
     return 0;

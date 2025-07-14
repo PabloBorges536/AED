@@ -7,14 +7,14 @@
 
 class Fila {
 private:
-    ListaNaoOrdenada listaSubjacente; 
 
 public:
     Fila(int capacidadeMaxima);
+    ListaNaoOrdenada listaSubjacente; 
 
     void enfileirar(Elemento* elemento);
     Elemento* desenfileirar();
-    Elemento* consultarPrimeiro() const;
+    Elemento* consultarPrimeiro();
     bool filaCheia() const;
     bool filaVazia() const;
 };
@@ -36,7 +36,7 @@ public:
 
     void enfileirar(Elemento* elemento);
     Elemento* desenfileirar();
-    Elemento* consultarPrimeiro() const;
+    Elemento* consultarPrimeiro() ;
     bool filaCheia() const;
     bool filaVazia() const;
 };
