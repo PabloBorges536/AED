@@ -1,7 +1,8 @@
 #ifndef LISTANAOORDENADA_H
 #define LISTANAOORDENADA_H
 
-#include <vector>
+
+
 #include <elemento.h>
 
 class ListaNaoOrdenada

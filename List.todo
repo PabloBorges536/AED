@@ -13,7 +13,7 @@ Autores: [Barizon]
             de Elemento. Cada classe deve implementar todos os métodos virtuais puros herdados de
             Elemento e possuir seus próprios atributos e métodos específicos.
             
-Autores: []
+Autores: [Barizon]
 
 
 - [X]   3 - Lista Não Ordenada: Implemente os métodos xInserirNoInicio, xInserirNoFinal, 
@@ -26,7 +26,7 @@ Autores: [Barizon]
             Contudo, as operações deve manter a ordem dos elementos pelo ID. 
             A busca deve ser otimizada, utilizando busca binária para alcançar
             complexidade O(logn);
-Autores: []
+Autores: [barizon]
 
 
 - [ ]   5 - Pilha: Implemente as classes Pilha utilizando composição. 
