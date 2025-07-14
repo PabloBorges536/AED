@@ -1,7 +1,5 @@
 #include "../include/pessoa.h"
 #include <iostream>
-#include "pessoa.h"
-#
 
 Pessoa::Pessoa(int id, const std::string &nome, int idade) 
 : Elemento(id) , nome(nome) , idade(idade) {}

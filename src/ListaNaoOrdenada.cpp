@@ -1,5 +1,4 @@
 #include "../include/ListaNaoOrdenada.h"
-#include "ListaNaoOrdenada.h"
 #include <iostream>
 
 
