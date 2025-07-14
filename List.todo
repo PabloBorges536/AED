@@ -57,9 +57,9 @@ Autores: [Antonio]
 Autores: [Barizon]
 
 
-- [X ]   7 - ListaDuplamenteEncadeada
+- [ ]   7 - ListaDuplamenteEncadeada
             (inserirNoInicio, inserirNoFim, removerPeloId, buscarPeloId, etc.).
-Autores: [Antonio]
+Autores: []
 
 
 - [ ]   8 - ListaDuplamenteEncadeadaCircular robustas e com todas as operações de manipulação 
