@@ -3,6 +3,7 @@
 #include "../include/ListaNaoOrdenada.h"
 #include "../include/ListaOrdenada.h"
 #include "../include/ListaEncadeada.h"
+#include "../include/ListaDuplamenteEncadeada.h"
 
 
 
@@ -31,5 +32,5 @@ int main(){
     return 0;
 }
 
-
+//ALGUEM FINALIZA A MAIN ass Pablo :)
 
