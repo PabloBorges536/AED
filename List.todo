@@ -22,7 +22,7 @@ Autores: [Barizon]
 Autores: [Barizon]
 
 
-- [ ]   4 - Lista Ordenada: Implemente os mesmos métodos da lista não ordenada. 
+- [X]   4 - Lista Ordenada: Implemente os mesmos métodos da lista não ordenada. 
             Contudo, as operações deve manter a ordem dos elementos pelo ID. 
             A busca deve ser otimizada, utilizando busca binária para alcançar
             complexidade O(logn);
