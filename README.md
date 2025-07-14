@@ -9,6 +9,7 @@ Projeto de Algoritmos e Estruturas de Dados desenvolvido em C++.
 João Victor Barizon - 202410067411  
 Antôni Neto - 202410069311  
 João Dias Stilben - 202410068111
+Pablo Alves Mattos Borges - 202410068011
 
 
 ## Estrutura do Projeto
