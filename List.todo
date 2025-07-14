@@ -29,21 +29,21 @@ Autores: [Barizon]
 Autores: [barizon]
 
 
-- [ ]   5 - Pilha: Implemente as classes Pilha utilizando composição. 
+- [X]   5 - Pilha: Implemente as classes Pilha utilizando composição. 
             Em vez de reimplementar a lógica, sua classe Pilha deve ter um atributo 
             privado que seja uma das listas que você já implementou 
             (escolha a estrutura apropriada).
             Exponha apenas os métodos para empilhar, desempilhar, consultarTopo, 
             pilhaCheia e pilhaVazia. Mapeie essas operações para as funcionalidades da sua 
             lista subjacente;
-Autores: []
+Autores: [Antonio]
 
 
-- [ ]   5 - Fila: Implemente uma fila seguindo os mesmos fundamentos apresentados para as pilhas. 
+- [X]   5 - Fila: Implemente uma fila seguindo os mesmos fundamentos apresentados para as pilhas. 
             Observe que essa estrutura apresentará uma manipulação menos eficiente do 
             que o necessário (estude os métodos de manipulação). 
             Proponha uma segunda implementação que corrija o problema encontrado.
-Autores: []
+Autores: [Antonio]
 
 
 ** PARTE 2 ** 
@@ -57,9 +57,9 @@ Autores: []
 Autores: []
 
 
-- [ ]   7 - ListaDuplamenteEncadeada
+- [X ]   7 - ListaDuplamenteEncadeada
             (inserirNoInicio, inserirNoFim, removerPeloId, buscarPeloId, etc.).
-Autores: []
+Autores: [Antonio]
 
 
 - [ ]   8 - ListaDuplamenteEncadeadaCircular robustas e com todas as operações de manipulação 
