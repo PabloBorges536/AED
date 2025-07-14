@@ -5,7 +5,7 @@ Projeto de Algoritmos e Estruturas de Dados desenvolvido em C++.
 
 
 # Alunos.
-João Victor Barizon - 202410067411.
+João Victor Barizon - 202410067411 \n
 Antôni Neto - 202410069311.
 João Dias Stilben - 202410068111.
 
