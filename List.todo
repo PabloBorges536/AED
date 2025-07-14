@@ -60,9 +60,9 @@ Autores: []
 Autores: []
 
 
-- [ ]   7 - ListaDuplamenteEncadeada
+- [X ]   7 - ListaDuplamenteEncadeada
             (inserirNoInicio, inserirNoFim, removerPeloId, buscarPeloId, etc.).
-Autores: []
+Autores: [Antonio]
 
 
 - [ ]   8 - ListaDuplamenteEncadeadaCircular robustas e com todas as operações de manipulação 
@@ -71,13 +71,13 @@ Autores: []
 
 
 - [ ]   9 - Pilha
-Autores: [Antônio]
+Autores: []
 
 - [ ]   9 - Fila
 Autores: []
 
 - [ ]   9 - deques
-Autores: [Antônio]
+Autores: []
 
 
 # como “adaptadores” que utilizam, por composição, 
